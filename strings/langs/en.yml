@@ -1,0 +1,88 @@
+welcome_root: |
+  ✧ ʜᴇʟʟᴏ ⌯❰ {mention} ❱⌯ 💸 ✨
+  
+  ❖ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>{bot_name}</b>
+  
+  ➤ ᴀ sᴍᴀʀᴛ & ᴇʟᴇɢᴀɴᴛ ᴍᴜsɪᴄ ʙᴏᴛ ʙᴜɪʟᴛ ꜰᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs.
+
+play_panel_desc: |
+  <b>CHOOSE THE CATEGORY FOR WHICH YOU WANNA GET HELP.</b>
+  <b>ASK YOUR DOUBTS AT <a href="https://t.me/DEFAULTERS_CHAT">SUPPORT CHAT</a></b>
+  
+  <b>ALL COMMANDS CAN BE USED WITH : /</b>
+
+help_admin_desc: |
+  <u><b>HERE IS THE HELP FOR ADMIN MODULE:</b></u>
+  
+  <b>ADMIN COMMANDS:</b>
+  
+  JUST ADD <b>C</b> IN THE STARTING OF THE COMMANDS TO USE THEM FOR CHANNEL.
+  
+  /pause : PAUSE THE CURRENT PLAYING STREAM.
+  /resume : RESUME THE PAUSED STREAM.
+  /skip : SKIP THE CURRENT PLAYING STREAM AND START STREAMING THE NEXT TRACK IN QUEUE.
+  /end OR /stop : CLEARS THE QUEUE AND END THE CURRENT PLAYING STREAM.
+  /queue : SHOWS THE QUEUED TRACKS LIST.
+  /loop [DISABLE/ENABLE] OR [BETWEEN 1:10] : WHEN ACTIVATED BOT WILL PLAY THE CURRENT PLAYING STREAM IN LOOP FOR 10 TIMES OR THE NUMBER OF REQUESTED LOOPS.
+  /shuffle : SHUFFLE THE QUEUED TRACKS.
+  /seek : SEEK THE STREAM TO THE GIVEN DURATION.
+  /seekback : BACKWARD SEEK THE STREAM TO THE GIVEN DURATION.
+
+# Inside strings/langs/en.yml append these variables:
+
+auth_admin_only_alert: "❌ <b>ᴛʜɪs ᴄᴍᴅ ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ ɴᴏᴛ ғᴏʀ ɴᴏʀᴍᴀʟ ᴜsᴇʀs.</b>"
+auth_reply_missing_alert: "⚠️ <b>ᴇʀʀᴏʀ:</b> ʏᴏᴜ ᴍᴜsᴛ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ."
+auth_success_desc: "✨ <b>{target_mention}</b> ʜᴀs ʙᴇᴇɴ sᴜᴄᴄᴇssғᴜʟʟʏ <b>ᴀᴜᴛʜᴏʀɪᴢᴇᴅ</b> ɪɴ ᴛʜɪs ᴄʜᴀᴛ!"
+unauth_success_desc: "❌ <b>{target_mention}</b> ʜᴀs ʙᴇᴇɴ sᴜᴄᴄᴇssғᴜʟʟʏ <b>ʀᴇᴍᴏᴠᴇᴅ</b> ғʀᴏᴍ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ sᴛᴀᴄᴋ."
+auth_already_present: "ℹ️ <b>{target_mention}</b> ɪs ᴀʟʀᴇᴀᴅʏ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ɪɴ ᴛʜɪs sᴘᴇᴄɪғɪᴄ ɢʀᴏᴜᴘ."
+unauth_not_present: "ℹ️ <b>{target_mention}</b> ɪs ɴᴏᴛ ᴘʀᴇsᴇɴᴛ ɪɴsɪᴅᴇ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ storage data arrays indices."
+
+# Inside strings/langs/en.yml, append these variables:
+
+log_new_group_desc: |
+  <b>#NEW_GROUP</b>
+  
+  <b>๏  ɢʀᴏᴜᴘ ɴᴀᴍᴇ : {chat_title}</b>
+  <b>๏  ɢʀᴏᴜᴘ ɪᴅ : <code>{chat_id}</code></b>
+  <b>๏  ɢʀᴏᴜᴘ ʟɪɴᴋ : {chat_link}</b>
+  <b>๏  ᴄʜᴀᴛ ᴍᴇᴍʙᴇʀs : {members_count}</b>
+
+log_remove_group_desc: |
+  <b>#REMOVE_GROUP</b>
+  
+  <b>๏  ɢʀᴏᴜᴘ ɴᴀᴍᴇ : {chat_title}</b>
+  <b>๏  ɢʀᴏᴜᴘ ɪᴅ : <code>{chat_id}</code></b>
+  <b>๏  ʀᴇᴍᴏᴠᴇᴅ ʙʏ : {admin_mention}</b>
+
+group_welcome_desc: "<b>ᴛʜᴀɴᴋs ꜰᴏʀ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ {mention}</b>"
+
+# Inside strings/langs/en.yml, append this updated block:
+
+couples_template: |
+  <b>❤️ ᴛᴏᴅᴀʏ's ᴄᴏᴜᴘʟᴇ ɪɴ {chat_title} :</b>
+  
+  <blockquote><b>👤 ᴘᴀʀᴛɴᴇʀ 1 : {partner_a}</b>
+  <b>👤 ᴘᴀʀᴛɴᴇʀ 2 : {partner_b}</b>
+  
+  <i>✨ ᴍᴀʏ ʏᴏᴜʀ ʙᴏɴᴅ ɢʀᴏᴡs sᴛʀᴏɴɢᴇʀ ʟɪᴋᴇ sᴀsᴜᴋᴇ ᴀɴᴅ sᴀᴋᴜʀᴀ!</i></blockquote>
+
+# Append these language variables block safely inside en.yml:
+
+vc_started_desc: "<blockquote><b>🔔 ᴠᴏɪᴄᴇ ᴄʜᴀᴛ sᴛᴀʀᴛᴇᴅ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ! ɢᴇᴛ ʀᴇᴀᴅʏ ꜰᴏʀ ᴛʜᴇ ᴍᴜsɪᴄ.</b></blockquote>"
+vc_ended_desc: "<blockquote><b>🛑 ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴇɴᴅᴇᴅ ʙʏ ᴀᴅᴍɪɴ ɪɴsᴛᴀɴᴄᴇ. sᴛʀᴇᴀᴍ ᴘɪᴘᴇʟɪɴᴇ ᴋɪʟʟᴇᴅ.</b></blockquote>"
+vc_not_active: "<b>❌ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɴᴏᴛ ᴏɴ ɪɴ ɢʀᴏᴜᴘ! ᴘʟᴇᴀsᴇ sᴛᴀʀᴛ ᴠᴄ ʙᴇꜰᴏʀᴇ ᴘʟᴀʏɪɴɢ.</b>"
+preparing_track: "<blockquote><b>⚡ ᴘʀᴇᴘᴀʀɪɴɢ ʏᴏᴜʀ sᴏɴɢ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ.</b></blockquote>"
+finding_track: "<blockquote><b>🔍 ꜰɪɴᴅɪɴɢ ʏᴏᴜʀ ᴛʀᴀᴄᴋ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ sᴇᴀʀᴄʜ sᴇʀᴠᴇʀs...</b></blockquote>"
+
+queue_added_template: |
+  <b>🎵 Aᴅᴅᴇᴅ Tᴏ Qᴜᴇᴜᴇ Aᴛ #{q_num}</b>
+  
+  <b>📝 ᴛɪᴛʟᴇ : {title}</b>
+  <b>🕐 ᴅᴜʀᴀᴛɪᴏɴ : {duration} ᴍɪɴᴜᴛᴇs</b>
+  <b>👤 ʀᴇǫᴜᴇsᴛᴇᴅ : {mention}</b>
+  
+  <b>© ᴘᴏᴡᴇʀᴇᴅ ʙʏ » ʙᴏʀᴜᴛᴏ ᴍᴜsɪᴄ</b>
+
+assistant_banned_alert: |
+  <b>🚨 ᴀssɪsᴛᴀɴᴛ ɪᴅ ɪs ʙᴀɴɴᴇᴅ ɪɴ {group_name}!</b>
+  <b>👉 ꜰᴏʀ ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ, ᴇxᴇᴄᴜᴛᴇ: <code>/unban {assistant_id}</code></b>
